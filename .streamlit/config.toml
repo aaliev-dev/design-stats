@@ -1,0 +1,17 @@
+[server]
+# Disable file watcher to prevent any external connections
+runOnSave = false
+# Don't enable CORS (local only)
+enableCORS = false
+# Don't enable XSRF protection for local use
+enableXsrfProtection = false
+
+[browser]
+# Disable usage stats collection (telemetry)
+gatherUsageStats = false
+# Don't open browser automatically
+serverAddress = "localhost"
+
+[global]
+# Disable development mode
+developmentMode = false

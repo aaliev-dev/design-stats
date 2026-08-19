@@ -1,0 +1,23 @@
+# Database (regenerate via fetch_data.py)
+design_insights.db
+
+# Jira API page cache
+data/
+
+# CSV exports (regenerate via export_csv.py)
+csv_exports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
